@@ -42,21 +42,35 @@ All features were normalized before training for optimal model performance.
 
 The LSTM model significantly outperformed the Linear Regression model in all evaluation metrics.
 
+# 📍 Predicted vs Actual Close Price (Next Day)
+
+After training the model on 150 days of data, we tested it on completely **unseen 151st day** to simulate a real-world next-day prediction.
+
+
+### 🔢 Result:
+📍 Predicted Close Price: 195.16
+📍 Actual Close Price: 194.95
+> This highlights how the model performs on completely unseen real-world data.
+> 🧠 Model was off by only **₹0.21**, showing high generalization capability even beyond the test set.
+
+
 ---
 
 ## 📈 Visualizations
 
 - Actual vs Predicted closing prices
--   ![image](https://github.com/user-attachments/assets/b616e5c0-52f6-4eb4-a3ab-7ed5c9dca4fb)
-
+ ![image](https://github.com/user-attachments/assets/b616e5c0-52f6-4eb4-a3ab-7ed5c9dca4fb)
+- 30-Day Forecast vs Actual
+      Model's prediction for the next 30 days using latest available data.
+  ![image](https://github.com/user-attachments/assets/0a3f2848-d9b8-449b-b39c-79a3b2922e12)
 - Training and Validation Loss curve
-- ![image](https://github.com/user-attachments/assets/db73e9ee-5470-4d04-a19e-0885efd1256d)
+  ![image](https://github.com/user-attachments/assets/db73e9ee-5470-4d04-a19e-0885efd1256d)
 
 - Technical indicator plots (e.g., RSI, MACD, Bollinger Bands)
 - ![image](https://github.com/user-attachments/assets/54b50d3f-1aee-4607-921d-42513743c89e)
 - ![image](https://github.com/user-attachments/assets/df1ab550-51c9-473e-ae6e-d004d0c28f61)
 - ![image](https://github.com/user-attachments/assets/e0635d35-7cb2-4529-97fa-d999bda0ee1e)
-- 
+  
 
 
 ---
@@ -86,7 +100,8 @@ The LSTM model significantly outperformed the Linear Regression model in all eva
 
 **Rishabh Yadav**
 
-> “Code. Learn. Repeat.” ⭐
+> “Code. Learn. Repeat.” 
+
 > ⭐ If you liked this project, feel free to star the repo!
 
 
