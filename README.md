@@ -37,8 +37,8 @@ All features were normalized before training for optimal model performance.
 
 | Model            | RMSE | MAE   | R² Score |
 |------------------|------|-------|----------|
-| Linear Regression| 4.28 | 3.213 | 0.9855   |   
-| LSTM             | 5.23 | 4.01  | 0.9784   |
+| LSTM             | 4.28 | 3.213 | 0.9855   |   
+| Linear Regression| 5.23 | 4.01  | 0.9784   |
 
 The LSTM model significantly outperformed the Linear Regression model in all evaluation metrics.
 
@@ -80,6 +80,14 @@ The LSTM model significantly outperformed the Linear Regression model in all eva
 
 ---
 
-## 📂 Folder Structure (if repo is structured)
+---
+
+## 🙋‍♂️ Author
+
+**Rishabh Yadav**
+
+> “Code. Learn. Repeat.” ⭐
+> ⭐ If you liked this project, feel free to star the repo!
+
 
 
