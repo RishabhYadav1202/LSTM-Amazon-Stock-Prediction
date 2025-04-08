@@ -38,7 +38,7 @@ All features were normalized before training for optimal model performance.
 | Model            | RMSE | MAE   | R² Score |
 |------------------|------|-------|----------|
 | LSTM             | 4.28 | 3.213 | 0.9855   |   
-| Linear Regression| 5.23 | 4.01  | 0.9784   |
+| Linear Regression| 5.69 | 4.45  | 0.9707   |
 
 The LSTM model significantly outperformed the Linear Regression model in all evaluation metrics.
 
